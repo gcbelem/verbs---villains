@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbs & Villains</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+        <nav></nav>
+    </header>
+
+<div  id="customise-case">
+    <select name="category" id="select-category">
+        <option value="0">Any Category</option>
+        <option value="9">General Knowledge</option>
+        <option value="10">Books</option>
+        <option value="11">Film</option>
+        <option value="12">Music</option>
+        <option value="14">Television</option>
+        <option value="15">Entertainment: Video Games</option>
+        <option value="17">Science & Nature</option>
+        <option value="18">Computers</option>
+        <option value="19">Mathematics</option>
+        <option value="21">Sports</option>
+        <option value="22">Geography</option>
+        <option value="23">History</option>
+        <option value="24">Politics</option>
+        <option value="25">Art</option>
+        <option value="26">Celebrities</option>
+        <option value="27">Animals</option>
+        <option value="28">Vehicles</option>
+    </select>
+
+    <select name="difficulty" id="select-difficulty"> 
+        <option value="0">Any Difficulty</option>              
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+
+    <select name="type" id="select-type">        
+        <option value="0">Any Type</option>
+        <option value="mutiple">Multiple Choice</option>
+        <option value="boolean">True or False</option>
+    </select>
+
+    <div id="question">
+
+    </div>
+
+    <button id="begin-case">Begin</button>
+
+</div>
+
+<div>
+    <select name="suspect-list" id="suspect-list">
+        <option value="suspect-0" id="suspect-0">Suspect A</option>
+        <option value="suspect-1" id="suspect-1">Suspect B</option>
+        <option value="suspect-2" id="suspect-2">Suspect C</option>
+        <option value="suspect-3" id="suspect-3">Suspect D</option>
+        <option value="suspect-4" id="suspect-4">Suspect E</option>
+    </select>
+    
+    <select name="weapon-list" id="weapon-list">
+        <option value="weapon-0" id="weapon-0">Weapon A</option>
+        <option value="weapon-1" id="weapon-1">Weapon B</option>
+        <option value="weapon-2" id="weapon-2">Weapon C</option>
+        <option value="weapon-3" id="weapon-3">Weapon D</option>
+        <option value="weapon-4" id="weapon-4">Weapon E</option>
+    </select>
+    
+    <select name="motive-list" id="motive-list">
+        <option value="motive-0" id="motive-0">Motive A</option>
+        <option value="motive-1" id="motive-1">Motive B</option>
+        <option value="motive-2" id="motive-2">Motive C</option>
+        <option value="motive-3" id="motive-3">Motive D</option>
+        <option value="motive-4" id="motive-4">Motive E</option>
+    </select>
+</div>
+
+<button id="new-case">New Case</button>
+<button id="accuse-button">Accuse</button>
+<meter value="0" min="1" max="6" id="turn-meter">Turns Remaining</meter>
+
+<script src="script.js"></script>
+</body>
+</html>
